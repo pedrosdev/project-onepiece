@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="./src/images/dokuro.png">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
+    <title>One Piece</title>
+</head>
+<body>
+    <div class="background-video">
+        <video class="video" src="./src/videos/trailer.mp4" autoplay loop muted></video>
+    </div>
+    <header class="header">
+        <a>
+            <img class="logo" src="./src/images/dokuro.png" alt="Jolly Roger dos Chapéus de Palha">
+        </a>
+        <nav>
+            <ul class="navigation">
+               <li><a href="#">Home</a></li>
+               <li><a href="#">Details</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container">
+        <div class="info">
+            <img class="one-piece" src="./src/images/one-piece.png" alt="Logo One Piece">
+            <p class="description">One Piece is a Japanese manga series written and illustrated by Eiichiro Oda. It follows the adventures of Monkey D. Luffy and his pirate crew in order to find the greatest treasure ever left by the legendary Pirate, Gold Roger. The famous mystery treasure named "One Piece".</p>
+            <button class="trailer-button">Watch Teaser Trailer</button>
+        </div>
+        <img class="luffy" src="./src/images/luffy.png" alt="Luffy">
+        <div class="modal">
+            <div class="modal-content">
+                <span class="close-video">X</span>
+                <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/kKLlm_leopY" title="Official Teaser Trailer" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+</html>
